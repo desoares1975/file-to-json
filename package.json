@@ -1,0 +1,11 @@
+{
+  "name": "romaneio-to-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
