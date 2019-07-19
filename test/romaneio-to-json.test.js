@@ -26,6 +26,7 @@ describe('Test handler', () => {
 
   it('Should parse all the lines and line 0 should have all properties', done => {
     const data = romaneioToJSON(fileData)
+console.log(data)
     expect(data.length).to.equals(49)
     expect(data[0]).to.have.property('userName')
     expect(data[0]).to.have.property('cep')
